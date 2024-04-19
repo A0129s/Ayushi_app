@@ -1,9 +1,13 @@
-import streamlit as np
 
-def add(a,b):
-  return a+b
+import streamlit as st
 
-a = st.number_input("first number :", )
-b = st.number_input("second number :", )
+def addition(x,y):
+ return(x+y)
 
-st.text(add(a,b))
+
+st.title("Calculator")
+
+x = st.number_input()
+y = st.number_input()
+
+st.text(addition(x,y))
