@@ -6,4 +6,4 @@ def add(a,b):
 a = st.number_input("first number :", )
 b = st.number_input("second number :", )
 
-st.text(add(a,b)
+st.text(add(a,b))
