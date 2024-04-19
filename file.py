@@ -7,7 +7,7 @@ def addition(x,y):
 
 st.title("Calculator")
 
-x = st.number_input()
-y = st.number_input()
+x = st.number_input("first number :" )
+y = st.number_input("second number :" )
 
 st.write(addition(x,y))
