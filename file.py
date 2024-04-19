@@ -1,4 +1,4 @@
-import streamelit as np
+import streamlit as np
 
 def add(a,b):
   return a+b
