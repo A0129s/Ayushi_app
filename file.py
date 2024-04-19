@@ -10,4 +10,4 @@ st.title("Calculator")
 x = st.number_input()
 y = st.number_input()
 
-st.text(addition(x,y))
+st.write(addition(x,y))
